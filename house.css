@@ -1,80 +1,106 @@
 #house {
     background-color: lightblue;
-    width: 1400px;
+    width: 650px;
     height: 700px;
 }
 
 #base {
-    position: absolute;
+   	position: absolute;
 	top:    360px;
 	left:   100px;
-    background-color: #FA7080;
-    border: 0,5px solid #4c434596;
-    width: 460px;
-    height: 300px;
+    	background-color: #FA7080;
+    	border: 0,5px solid #4c434596;
+   	width: 460px;
+    	height: 300px;
 }
 
 #roof {
-    position: absolute;
-    top:    1px;
+    	position: absolute;
+    	top:    1px;
 	left:   100px;
 	border: 230px solid transparent;
 	border-bottom: 130px solid #8b689a
 }
 
 #window {
-    position: absolute;
+    	position: absolute;
 	top:    400px;
 	left:   230px;
-    background-color: #cec9c9;
-    border-radius: 200px;
-    border: 3px solid #47147ee6;
-    width: 200px;
-    height: 200px;
+    	background-color: #cec9c9;
+    	border-radius: 200px;
+    	border: 3px solid #47147ee6;
+    	width: 200px;
+    	height: 200px;
+}
+
+#frame1 {
+    	position: absolute;
+	top:    400px;
+	left:   330px;
+    	border: 1px solid #47147ee6;
+   	width: 0,1px;
+    	height: 201px;
+}
+
+#frame2 {
+    	position: absolute;
+	top:    500px;
+	left:   230px;
+    	border: 1px solid #47147ee6;
+    	width: 201px;
+    	height: 0,1px;
 }
 
 #chimney {
-    position: absolute;
-    top:    241px;
+    	position: absolute;
+    	top:    241px;
 	left:   410px;
-    border-bottom: 80px solid #6d0d57;
-    border-left: 46px solid transparent;
-    border-right: 0px solid transparent;
-    transform: rotate(270deg);
-    width: 20px;
-    height: 20px;
+    	border-bottom: 80px solid #6d0d57;
+    	border-left: 46px solid transparent;
+    	border-right: 0px solid transparent;
+    	transform: rotate(270deg);
+    	width: 20px;
+    	height: 20px;
 }
 
 #smoke1 {
-    position: absolute;
+    	position: absolute;
 	top:    199px;
 	left:   440px;
-    background-color: #eef6fe;
-    border-radius: 40px;
-    width: 40px;
-    height: 40px;
+    	background-color: #eef6fe;
+    	border-radius: 40px;
+    	width: 40px;
+    	height: 40px;
 
 }
 
 
 #smoke2 {
-    position: absolute;
+    	position: absolute;
 	top:    170px;
 	left:   425px;
-    background-color: #f0f4f8;
-    border-radius: 20px;
-    width: 20px;
-    height: 20px;
+    	background-color: #f0f4f8;
+    	border-radius: 20px;
+    	width: 20px;
+    	height: 20px;
 
 }
 
 #smoke3 {
-    position: absolute;
+    	position: absolute;
 	top:    140px;
 	left:   476px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    width: 15px;
-    height: 15px;
+    	background-color: #ffffff;
+    	border-radius: 15px;
+    	width: 15px;
+    	height: 15px;
 
+}
+
+#earth {
+    	position: absolute;
+	top: 660px;
+    	background-color: #91ddb0;
+    	width: 650px;
+    	height: 70px;
 }
